@@ -5,17 +5,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const projectsLink = document.getElementById('projects');
 
     homeLink.addEventListener('click', () => {
-        toggleCheckbox.checked = false; 
+        toggleCheckbox.checked = false;
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
     aboutLink.addEventListener('click', (event) => {
-        event.preventDefault(); 
-        toggleCheckbox.checked = false; 
-        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }); 
+        event.preventDefault();
+        toggleCheckbox.checked = false;
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
     });
 
     projectsLink.addEventListener('click', () => {
-        toggleCheckbox.checked = false; 
+        toggleCheckbox.checked = false;
     });
 });
